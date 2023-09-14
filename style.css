@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    /* background-color: rgb(250, 233, 248); */
+}
+
+body {
+    background-color: rgb(247, 239, 246);
+    ;
+}
+
+.heading {
+    font-size: 28px;
+    font-weight: 500;
+    margin-left: 60px;
+    margin-top: 30px;
+    display: flex;
+}
+
+.loginInterfaceBtn {
+    margin-left: 1406px;
+    font-size: 50px;
+    border: 2px solid rgb(247, 239, 246);
+    margin-top: -58px;
+    display: flex;
+}
+
+#Logo {
+    border-radius: 60px;
+    width: 80px;
+    margin-left: 50vw;
+    margin-top: -55px;
+    display: flex;
+}
+
+#userName {
+    margin-left: 1150px;
+    margin-top: -57px;
+}
+
+#user {
+    width: 80px;
+    border-radius: 20px;
+    padding-left: 40px;
+    border: 2px solid white;
+}
+
+#PIN {
+    width: 80px;
+    border-radius: 20px;
+    padding-left: 40px;
+    border: 2px solid white;
+}
+
+.container {
+    opacity: 0;
+}
+
+.footer {
+    opacity: 0;
+}
+
+.head {
+    font-size: 22px;
+    margin: 40px;
+
+
+}
+
+.time {
+    font-size: 15px;
+    margin-left: 2px;
+    margin-top: -3px;
+
+}
+
+.balance {
+    margin-left: 1000px;
+    margin-top: -55px;
+    font-size: 45px;
+}
+
+.balanceHistory {
+    background-color: white;
+    width: 550px;
+    height: 495px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+    padding: 20px;
+    margin-top: -30px;
+    border-radius: 8px;
+    margin-left: 60px;
+}
+
+.deposite {
+    border: 2px solid rgba(34, 208, 7, 0.856);
+    ;
+    width: 100px;
+    border-radius: 60px;
+    color: white;
+    background-color: rgba(34, 208, 7, 0.856);
+    ;
+    padding-left: 15px;
+}
+
+.his-1 {
+    margin-left: 400px;
+    font-size: 22px;
+    margin-top: -28px;
+}
+
+.getout {
+    border: 2px solid rgb(228, 49, 49);
+    width: 100px;
+    border-radius: 60px;
+    color: white;
+    background-color: rgb(228, 49, 49);
+    padding-left: 15px;
+}
+
+.transfer {
+    border: 2px solid rgb(250, 237, 248);
+    width: 463px;
+    height: 170px;
+    margin-left: 800px;
+    margin-top: -536px;
+    border-radius: 10px;
+    /* background: linear-gradient(rgb(255, 166, 0),yellow); */
+    background: linear-gradient(90deg, rgba(240, 216, 0, 0.927), rgba(240, 203, 18, 0.813)),
+        orange;
+}
+
+h4 {
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.TransferType {
+    margin-left: 40px;
+    margin-top: -2vh;
+    padding-left: 20px;
+    width: 120px;
+    border-radius: 5px;
+    /* background: linear-gradient(rgb(235, 187, 98),rgb(240, 240, 77)); */
+    /* background:  linear-gradient(90deg,rgba(255, 255, 255, 0.5),rgba(237, 208, 64, 0.813)),
+    orange;
+     */
+    border: 2px solid white;
+}
+
+.TransferNumber {
+    margin-left: 2px;
+    margin-top: -2vh;
+    padding-left: 20px;
+    width: 120px;
+    border-radius: 5px;
+    /* background: linear-gradient(rgb(235, 187, 98),rgb(240, 240, 77)); */
+    /* background:  linear-gradient(90deg,rgb(255, 255, 255),rgba(237, 208, 64, 0.813)),
+    orange; */
+    border: 2px solid white;
+}
+
+.loan {
+    border: 2px solid rgb(250, 237, 248);
+    width: 463px;
+    height: 170px;
+    margin-left: 800px;
+    margin-top: 8px;
+    border-radius: 10px;
+    /* background: linear-gradient(rgb(255, 166, 0),yellow); */
+    background: linear-gradient(90deg, rgb(67, 252, 0), rgb(34, 236, 3)),
+        green;
+}
+
+.numberloan {
+    margin-left: 35px;
+    margin-top: -2vh;
+    padding-left: 20px;
+    width: 120px;
+    border-radius: 5px;
+    /* background: linear-gradient(rgb(235, 187, 98),rgb(240, 240, 77)); */
+    /* background:  linear-gradient(90deg,rgba(255, 255, 255, 0.5),rgba(132, 239, 137, 0.813)),
+    green; */
+    border: 2px solid white;
+}
+
+.type-close-account {
+    margin-left: 40px;
+    margin-top: -2vh;
+    padding-left: 20px;
+    width: 120px;
+    border-radius: 5px;
+    /* background: linear-gradient(rgb(235, 187, 98),rgb(240, 240, 77)); */
+    /* background:  linear-gradient(90deg,rgba(255, 255, 255, 0.5),rgba(237, 208, 64, 0.813)),
+    orange;
+     */
+    border: 2px solid white;
+}
+
+.number-close-account {
+    margin-left: 2px;
+    margin-top: -2vh;
+    padding-left: 20px;
+    width: 120px;
+    border-radius: 5px;
+    /* background: linear-gradient(rgb(235, 187, 98),rgb(240, 240, 77)); */
+    /* background:  linear-gradient(90deg,rgb(255, 255, 255),rgba(237, 208, 64, 0.813)),
+    orange; */
+    border: 2px solid white;
+}
+
+.close-account {
+    border: 2px solid rgb(250, 237, 248);
+    width: 463px;
+    height: 170px;
+    margin-left: 800px;
+    margin-top: 8px;
+    border-radius: 10px;
+    /* background: linear-gradient(rgb(255, 166, 0),yellow); */
+    background: linear-gradient(90deg, rgb(217, 51, 51), rgb(255, 53, 3)),
+        red;
+}
+
+.btnTransfer {
+    border: 2px solid white;
+    width: 40px;
+    border-radius: 4px;
+}
+
+#request-loan {
+    border: 2px solid white;
+    width: 40px;
+    border-radius: 4px;
+}
+
+#close-account {
+    border: 2px solid white;
+    width: 40px;
+    border-radius: 4px;
+}
+
+footer {
+    display: flex;
+    margin-left: 163px;
+    /* justify-content: space-between; */
+    margin-top: 28px;
+}
+
+#in {
+    margin-left: 5px;
+}
+
+.in {
+    color: rgba(34, 208, 7, 0.856);
+    ;
+    font-size: 25px;
+}
+
+#out {
+    margin-left: 153px;
+}
+
+.out {
+    color: red;
+    font-size: 25px;
+}
+
+#interest {
+    margin-left: 148px;
+}
+
+.interest {
+    color: rgba(34, 208, 7, 0.856);
+    font-size: 25px;
+}

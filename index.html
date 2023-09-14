@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/BankistApp/style.css">
+    <link rel="icon" type="image/x-icon" href="/BankistApp/favIcon.png">
+    <title>Bankist App</title>
+</head>
+
+<body>
+    <header>
+        <div class="heading">
+            Log in to Get Started
+        </div>
+        <div class="logo">
+            <img src="/BankistApp/swedbank.png" alt="" id="Logo">
+        </div>
+        <div id="userName">
+            <input type="text" id="user" placeholder="USER"> <input type="text" id="PIN" placeholder="PIN">
+        </div>
+        <button class="loginInterfaceBtn">→</button>
+    </header>
+    <div class="container">
+        <div class="head">
+            Current balance <br>
+            <div class="time">As 18/6/2023 2:00 pm </div>
+            <div class="balance">00000000$</div>
+        </div>
+        <div class="balanceHistory">
+
+
+        </div>
+        <div class="transfer">
+            <h4>Transfer Money</h4>
+            <input type="text" class="TransferType" placeholder="transfer to"> <input type="number" placeholder="Amount"
+                class="TransferNumber"> <button class="btnTransfer">→</button>
+        </div>
+        <div class="loan">
+            <h4>Request loan</h4>
+            <input type="number" placeholder="Amount" class="numberloan"> <button id="request-loan">→</button>
+        </div>
+        <div class="close-account">
+            <h4>Close account</h4>
+            <input type="text" class="type-close-account" placeholder="confirm user"> <input type="text"
+                placeholder="confirm pin" class="number-close-account"> <button id="close-account">→</button>
+        </div>
+    </div>
+    </div>
+    <footer class="footer">
+        <div id="in">
+            IN <p class="in">000000£</p>
+        </div>
+        <div id="out">
+            OUT <p class="out">000000£</p>
+        </div>
+        <div id="interest">
+            INTEREST <p class="interest">000000£</p>
+        </div>
+    </footer>
+
+
+    <script src="/BankistApp/bankistProjectArray.js"></script>
+
+</body>
+
+</html>
